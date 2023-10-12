@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { ActivityIndicator, Animated, StyleProp, View, ViewStyle } from 'react-native'
 import { useFade } from '../hooks/useFade';
-import { TurboModuleRegistry } from 'react-native';
 
 interface Props {
     imgUrl: string;
